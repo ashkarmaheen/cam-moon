@@ -1,0 +1,31 @@
+.service{width: 100%;
+         height: 150px;
+         background-color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;}
+
+.servicebox{height: 700px;
+            background-color: rgb(153, 151, 151);
+            padding: 0px 5% 0px 5%;}
+
+.servicenav{height: 100px;
+            background-color: rgb(255, 255, 254);}
+
+.servicenavboxs{width: 20%;
+                height: 100px;
+    background-color: black;}
+
+.serviceimage{width: 100%;
+              height: 600px;
+              background-color: blue;
+               }
+
+.imagebox{width: 34%;
+          height: 600px;
+          background-color: brown;
+          overflow: hidden;}
+
+.w3-container{display: flex;
+              }
+            
