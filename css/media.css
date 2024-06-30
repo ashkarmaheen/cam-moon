@@ -1,0 +1,300 @@
+@media screen and (max-width:775px) {
+
+    .navtext{ display: none;}
+
+.menubar{display: block;
+         display: grid;
+         justify-content: end;
+}
+
+.bannertexticon{align-items: flex-start;}
+
+.bannericon {width: 50px;
+             height: 50px;
+             margin-right: 20px;}
+
+.bannertext{font-size: 58px;
+            margin-top: 53px;
+}
+
+.bannersubtext { font-size: 57px;}
+
+
+.aboutcontent {font-size: 13px;
+               margin-top: 33px;
+               margin-bottom: 20px;
+}
+
+.aboutimagebox{top: -43px;}
+
+.aboutbox {height: 384px;}
+
+.aboutimage {
+    width: 153%;}
+
+.abouttext{font-size: 20px;}
+
+
+.w3-bar{width: 200%;}
+ 
+.imagebox {
+    height: 333px;}
+
+.backgroundshade { height: 300px;}
+
+.firstpost {height: 300px;
+            top: -147px;}
+
+.secendpost {height: 350px;
+             top: -197px;}
+
+.thredpost{height: 300px;}
+
+.fourthpost {height: 190px;
+              top: -140px;}
+
+.photobgshade{height: 156px;;}
+
+.textimagecontainer {top: -196px;}
+
+.post{font-size: 61px;
+    line-height: 52px;} 
+
+.iconbox {height: 170px;}
+
+.icontext {text-align:center;
+           font-size: 13px;}
+
+.photosubbox {height: 290px;}
+ 
+.photobox {height: 290px;}
+
+.photosubboxA {height: 290px;}
+
+.imageA{top: -75px;}
+
+.imageB {top: -67px;}
+
+.imageC {top: -22px;}
+
+.contact { height: auto;}
+
+.contacshaid {height: 308px;
+              top: 210px;}
+
+.iconcontact {
+                height: 39px;}
+
+.iconpic { width: 33px;
+           height: 34px;}
+
+.facebook{font-size: 43px;
+          position: relative;
+          top: 16px}
+
+.contactbox {width: 78%;
+    height: auto;
+    bottom: 35px;
+        left: 40px;
+    }
+
+.headbox {height: auto;
+    padding-top: 0px;
+    font-size: 16px;}
+
+.namebox {margin-top: 0px;
+          margin-bottom: 0px;
+          font-size: 12px;
+          }
+
+.name {
+    width: 95%;
+    height: 35px;}
+
+.iconimg { height: 70%;}
+
+.contactfont {
+    font-size: 19px;
+        padding: 13px;
+}
+
+.Socialmedia {
+    width: 103%;
+    margin-left: 24px;}
+
+.contactcolorbox{    width: 54%;
+                 height: 296px;
+                 top: 360px;}
+
+.redbox{height: 275px;
+    right: 35px;}
+
+.iconimage{height:100%;}
+
+.iconimglogo{height: 50%;}
+
+.footer{flex-direction: column;}
+
+.footersub{display: flex;}
+
+.footerboxs{margin-left: 80px;}
+
+.footerboxsfour{margin-left: 0px;}
+}
+
+@media screen and (max-width:470px) {
+    
+.banner{margin-bottom: 50px;}
+
+.logobox {width: 60%;}
+
+.bannertext {font-size: 30px;}
+
+.bannersubtext {
+    font-size: 35px;
+}
+
+.bannerparagaph {padding: 0px 41px;
+}
+
+.bannericon {
+    width: 40px;
+    height: 40px;}
+
+.bannericonbox {height: 240px;}
+
+.backgroundshade {height: 333px;}
+
+.aboutbox {
+    height: 300px;}
+
+.aboutimagebox {top: 37px;}
+
+.aboutimage {width: 320%;}
+
+.aboutimageA {padding: 35px 0px 0px 19px;}
+
+.abouttext {font-size: 16px;
+            height: 15px;}
+
+
+
+.postbox {display: none;}
+
+.photobgshade {
+    height: 115px;}
+
+.firstpost {height: 195px;
+    top: -103px;
+    width: 30%;}
+
+.secendpost{height: 300px;
+    width: 50%;
+    top: -170px;}
+
+.fourthpost {height: 195px;
+                top: -103px;
+                width: 30%;
+            }
+
+.iconbox {height: 170px;}
+
+.imagebox {height: 370px;}
+
+.advabtagesbox {flex-direction: column;}
+
+.icons {width: 100%;}
+
+.icontext {font-size: 15px;
+           margin-top: -37px;}
+
+.photobox {flex-direction: column;
+           align-items: center;
+           height: auto;}
+
+.photosubbox {height: 300px;
+              margin-right: 0px;
+              margin-bottom:1%;}
+
+.photosubbox {width: 100%;}
+
+.photosubboxA {display: none;}
+
+.contactcolorbox {background-color: #17181700;}
+
+.redbox{background-color: #17181700}
+
+.iconcontact {
+    height: 23px;
+    font-size: 12px;
+}
+.iconpic {height: 21px;
+          width: 29px;}
+
+.contactcolorbox {top: 90px;
+          }
+
+.contactbox {width: 100%;
+            height: 318px;
+            bottom: 34px;
+            left: -45px;}
+
+.headbox {font-size: 11px;}
+
+.name {width: 87%;
+    height: 25px;}
+
+.namebox {font-size: 10px;
+}
+
+.emil {
+    margin-bottom: 15px;}
+
+.contactfont {font-size: 14px;
+                  padding: 9px;}
+
+.facebook {font-size: 20px;
+           position: relative;
+           top: 10px;
+}
+
+.Socialmedia{width: 100%;
+             height: 35px;
+             margin-left: 26px;}
+
+.contacshaid {height: 147px;
+              top: 164px;}
+
+.service {font-size: 15px;
+          height: 60px;
+          padding-top: 40px;}
+
+.wrapper {padding: 0px 10px;}
+
+.reviewboxbB {height: 100px;
+              padding: 10px;}
+
+.reviewtext {font-size: 9px;}
+
+.iconimg{height: 103%}
+
+.logB {height: 45px;
+        margin-left: -5px;}
+
+.footersub{flex-direction: column;
+           }
+
+.footerboxs{margin-left:0px;
+             margin-left: -5px;}
+
+.footerboxs {padding-top:0px}
+
+.serviceimage {overflow-x: scroll;
+    display: grid;
+}
+
+.scroll{display: flex;
+width: 200%;
+}
+
+}
