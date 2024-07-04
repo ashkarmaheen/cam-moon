@@ -45,7 +45,8 @@
 
 .backgroundbox{width: 100%;
                height: auto;
-               margin: auto;}
+               margin: auto;
+               font-family: iconfont;}
 
 .header{padding: 0px 5% 0px 5%;
         display: flex;
