@@ -15,7 +15,7 @@
 .servicenav{height: 100px;
             background-color: rgb(255, 255, 254);
             width: 100%;
-    overflow-x: scroll;
+            margin-left: 29px;
             }
 
 .servicenavboxs{width: 20%;
@@ -45,7 +45,7 @@
            flex-basis:100%;
            color: white;
            font-size: 17px;
-           /* margin-left: -36px; */
+           margin-left: -29px;
            clip-path: polygon(89% 0%,100% 100%,0% 100%,11% 0%);
        }
 

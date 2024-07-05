@@ -34,11 +34,15 @@
 
 .abouttext{font-size: 20px;}
 
+.servicenav{overflow-x: scroll;
+            margin-left: 0%;}
 
 .w3-bar{width: 200%;}
+
+.w3-button {margin-left: 0px;}
  
 .imagebox {
-    height: 333px;}
+    height: 339px;}
 
 .backgroundshade { height: 300px;}
 
@@ -119,7 +123,7 @@
 }
 
 .Socialmedia {
-    width: 103%;
+    width: 97%;
     margin-left: 24px;}
 
 .contactcolorbox{    width: 54%;
