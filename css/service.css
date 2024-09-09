@@ -1,0 +1,218 @@
+*{margin:0px;
+padding:0px}
+.service{height: 150px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: headfont;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 30px;
+}
+
+.servicebox{height: auto;
+            padding: 0px 5% 0px 5%;}
+
+.servicenav{height: 100px;
+            background-color: rgb(255, 255, 254);
+            width: 100%;
+            margin-left: 29px;
+            }
+
+.servicenavboxs{width: 20%;
+                height: 100px;
+    background-color: black;}
+
+.serviceimage{width: 100%;
+              background-color: blue;
+              display: flex; }
+
+
+
+.imagebox{width: 34%;
+          height: auto;
+          background-color: brown;
+          overflow: hidden;}
+
+.scroll{display: flex;}
+
+.w3-container{display: flex;
+              }
+
+.w3-button{
+           height: 100px;
+           background-color: black;
+           flex-grow: 1;
+           flex-basis:100%;
+           color: white;
+           font-size: 17px;
+           margin-left: -29px;
+           clip-path: polygon(89% 0%,100% 100%,0% 100%,11% 0%);
+       }
+
+
+           
+.oposit{clip-path:polygon(0.1% 0%, 100% 0%, 89% 100%, 11% 100%);
+        margin-left: -30px;}
+
+        .w3-red{
+                background: #121212 !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+
+        .w3-red::after{
+                content: "";
+                width: 108%;
+                height: 7px;
+                background: red;
+                position: relative;
+                bottom: -37px;
+        }
+
+     
+
+.servnav{height: 100px;
+         background-color: rgb(255, 255, 255);
+         display: flex;
+      }
+
+.photobg{height: 592px;}
+
+.photobgshade{height: 337px;}
+
+.firstpost{width: 24%;
+        height: 480px;
+           background-color: rgb(164, 165, 165);
+           position: relative;
+           top: -144px;}
+
+.secendpost{width: 30%;
+            height: 589px;
+            background-color: rgb(164, 165, 165);
+            position: relative;
+            top: -253px;}
+
+.thredpost{
+        height: 490px;  
+           background-color: rgb(164, 165, 165);
+           
+          }
+
+           .textimagecontainer{
+                position: relative;
+                top: -253px;
+                overflow: hidden;
+           }
+
+.postbox{width: 24%;}
+
+.post{width: 100%;
+        height: 140px;
+        color: black;
+        font-family: "postsfont";
+        font-size: 120px;
+        line-height: 90px;
+        letter-spacing: 5px;
+      }
+
+.fourthpost{width: 18%;
+        height: 320px;
+        background-color: rgb(164, 165, 165);
+        position: relative;
+        top: -133px;
+        }
+
+.heredimage{width: 100%;}
+
+.photobuttonbox{height: 100px;
+                display: flex;
+                justify-content: center;
+                background-color:#BEBEBE;
+                align-items: center;}
+
+.photobutton{background-color: black;
+        align-items:normal;
+            }
+
+.advabtages{
+            padding: 0px 5% 0px 5%;}
+
+.advabtagesbox{width: 100%;
+               display: flex;
+               justify-content: space-between;
+               }
+
+
+.icons{width: 22%;}
+
+.iconbox{height: 200px;
+
+        display: flex;
+        justify-content: center;
+}
+
+.icontext{height: 50px;
+          display: flex;
+          justify-content: center;
+          font-family: iconfont;}
+
+.lastphoto{height: auto;
+           padding: 0px 5% 0px 5%;}
+
+.photobox{height: 500px;
+                display: flex; }
+
+.photoboxA{margin-top: 1%;}
+
+.photosubbox{width: 50%;
+             overflow: hidden;
+             height: 500px;
+             display: flex;
+             justify-content: space-between;
+             align-content: space-between;
+             flex-wrap: wrap;
+}
+
+.photosubboxA{width: 50%;
+              overflow: hidden;
+               height: 500px;
+               margin-left: 1%;}
+
+.photosubboxB{margin-right: 1%;}
+
+.imageA{width: 100%;
+        position: relative;
+        top: -175px;}
+
+.photoimage{width: 100%;}
+
+.imageB{top: -132px;}
+
+.imageC{top: -65px;}
+
+.imageD{top: -130px;}
+
+.smallboxs{width: 49%;
+           height: 49%;
+           background-color: white;
+           overflow: hidden;
+          }
+
+.more{background-color: white;}
+
+.redlnemore{position: relative;
+        top: -2px;
+        left: -70px;}
+
+.lastfooter{width: 100%;
+            height: 30px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }        

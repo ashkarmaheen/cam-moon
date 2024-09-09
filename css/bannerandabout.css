@@ -1,0 +1,244 @@
+@font-face {
+      font-family: romantic;
+      src: url(../font/SSRomantic.otf);
+}
+
+@font-face {
+      font-family: subbanner;
+      src: url(../font/alphabetized\ cassette\ tapes.ttf);
+}
+
+@font-face {
+      font-family: navfont;
+      src: url(../font/segoeuib.ttf);
+}
+
+@font-face {
+      font-family: headfont;
+      src: url(../font/ZEWKILA\ Trial.otf);
+}
+
+@font-face {
+      font-family: sifont;
+      src: url(../font/segoeui.ttf);
+}
+
+@font-face {
+      font-family: iconfont;
+      src: url(../font/segoeuisl.ttf);
+}
+
+@font-face {
+      font-family: reviwfont;
+      src: url("../font/sylfaen.ttf");
+}
+
+@font-face {
+      font-family: postsfont;
+      src: url("../font/STREZY\ BREAK\ OUTLINE.otf");
+}
+
+@font-face {
+      font-family: namefont;
+      src: url(../font/namefont.ttf);
+}
+
+.backgroundbox{width: 100%;
+               height: auto;
+               margin: auto;
+               font-family: iconfont;}
+
+.header{padding: 0px 5% 0px 5%;
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+    } 
+        
+.logobox{width: 30%;
+      height: 100px;}
+
+.log{width: 80%;
+      height: 80px;
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+      }
+
+.image{width: 100%;
+      height: 100%;
+      }
+
+.navbox{width: 70%;
+        height: 100px;
+        display: grid;
+        align-items: center;
+        font-family: bannerfont;
+        
+    }
+
+.navtext{color: rgb(255, 255, 255);
+         justify-content: space-around;
+         display: flex;
+         list-style: none;
+         font-family: navfont;
+         }
+
+.banner{min-height: 700px;
+        background:url("../image/1.jpeg") no-repeat;
+        background-position: 0px -1100px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+       }
+
+ .bannertexticon{display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;}
+
+.bannerimage{width: 100%;}
+
+.bannerhead{    width: 82%;
+      color: white;
+            display: grid;
+            margin-top: 25px;
+            justify-content: center;
+            align-content: center;
+            }
+
+.bannertext{font-size: 80px;
+      text-align: center;
+      font-family: romantic;
+      font-size: 105px;
+      text-shadow: 0px 0px 50px #000000;
+}
+
+.bannerparagaph{color: white;
+                display: flex;
+                justify-content: center;
+                align-items: start;}
+
+.bannersubtext{font-size: 65px;
+      margin: 30px 0px 50px 0px;
+               text-align: center;
+               font-family: subbanner;
+               text-shadow: 5px 0px 35px #000000}
+
+.bannerbutton{height: 40px;
+              background-color: black;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              border: 0;
+}
+
+.buttonfonts{font-size: 17px;
+      margin: 0px 30px;
+      color: rgb(255, 255, 255);
+
+}
+.bannerbutton::before {
+      content:""; width: 10px;
+              height: 40px;
+              background-color: red;
+              position: absolute;
+              left: -1px;
+              top: 0px;
+
+}
+
+
+.bannericonbox{
+               height: 400px;
+               right: 102px;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+}
+
+.bannericon{width: 60px;
+            height: 60px;}
+
+.aboutbox{width: 100%;
+          height:700px;
+          background-color: rgb(255, 255, 255);
+          display: flex;
+          align-items: flex-end;
+}
+
+.backgroundshade{width: 100%;
+                 height: 450px;
+                 background-color:#BEBEBE;
+                 padding: 0px 5% 0px 5%;
+                 display: flex ;
+                 justify-content: space-between;}
+
+.menubar{ overflow: hidden;
+      position: relative;}
+
+.menutoggle{background-color: rgba(240, 248, 255, 0);
+      display: none;}
+
+.aboutimage{width: 100%;
+            height: 400px;
+             }
+
+.aboutimageA{flex-grow: 3;
+                  height: 340px;
+
+                  padding: 30px;
+                   }
+
+.aboutimagebox{background-color: black;
+               border-left:  10px solid red;
+               overflow: hidden;
+               position: relative;
+               top: -150px;}
+
+.aboutpic{width:110%;}
+
+.abouttext{height:35px;
+           font-family: headfont;
+           font-size: 25px;}
+ 
+.abouthead{margin: 0;}
+
+.aboutcontent{font-family: sifont;
+              font-size: 22px;
+              margin-top: 66px;
+              margin-bottom: 46px;
+            
+              }
+
+.aboutbutton{height: 40px;
+             background-color: black;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             border: 0;}
+
+.aboutbutton::before{content:"";
+      width: 10px;
+      height: 40px;
+      background-color: red;
+      position: relative;
+      top: 0px;
+      left: -7px;}
+
+
+.readmore{color: white;
+          padding: 0px 20px;
+           }
+
+
+      
+
+
+
+               
+            
+

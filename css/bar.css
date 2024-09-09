@@ -1,0 +1,125 @@
+@font-face {
+    font-family: navfont;
+    src: url(../font/segoeuib.ttf);
+}
+
+.menu-bar {
+    background-color: #33333300; 
+    overflow: hidden;
+ position: relative;
+ display: flex;
+ flex-direction: row-reverse;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    padding: 14px 20px;
+    cursor: pointer;
+    background-color: #f0ffff00
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    float: left;
+    font-family: navfont;
+}
+
+.menu-list li:hover{background-color: #333333d8; }
+
+.menu-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 775px) {
+
+.navbox{justify-content: end;}
+
+    .menu-list {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-list li {
+        float: none;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 14px;
+    }
+
+    .menu-list.shows {
+        display: block;
+        margin-top: 145px;
+        background-color: #333333;
+    }
+
+    .menu-list a {
+        text-align: left;
+        padding: 14px;
+    }
+}
+
+@media screen  and (max-width:483px){
+
+.menu-list a{padding: 8px;}
+
+.menu-list.shows {margin-top: 115px;
+    background-color: #333333;}
+}
+
+@media screen and (max-width:1236px) {
+    .menu-list a{padding: 14px 68px;}
+}
+
+@media screen and (max-width:1236px) {
+
+.menu-list a {padding: 14px 62px;}
+
+}
+
+@media screen and (max-width:1144px) {
+    .menu-list a {padding: 14px 58px;}
+    }
+
+@media screen and (max-width:1091px) {    
+.menu-list a {padding: 14px 54px;
+}
+}
+@media screen and (max-width:1034px) {
+    .menu-list a {
+        padding: 14px 52px;}
+}
+
+@media screen and (max-width:1025px) {
+.menu-list a {padding: 14px 50px;}
+}
+
+@media screen and (max-width:984px) {
+    .menu-list a {padding: 14px 45px;}
+    }
+
+@media screen and (max-width:921px) {.menu-list a {
+ padding: 14px 40px;
+        }}
+
+@media screen and (max-width:921px) {.menu-list a {padding: 14px 34px;}
+}
+
+@media screen and (max-width:781px) {.menu-list a {padding: 14px 32px;}
+}
