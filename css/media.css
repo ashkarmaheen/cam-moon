@@ -860,9 +860,11 @@
            top: 10px;
 }
 
-.Socialmedia{width: 100%;
+.Socialmedia{width: 95%;
     height: 43px;
     margin-left: 39px;}
+
+.facebook{font-size: 25px;}
 
 .contacshaid {height: 147px;
               top: 164px;}
