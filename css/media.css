@@ -779,6 +779,7 @@
 .fourthpost {height: 195px;
                 top: -103px;
                 width: 30%;
+                display: block;
             }
 
 .iconbox {height: 170px;}
