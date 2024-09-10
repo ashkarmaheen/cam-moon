@@ -396,6 +396,8 @@
 @media screen and (max-width:775px) {
 .banner{background-position: 0px -500px;}
 
+.menu-delete{display: block;}
+
     .navtext{ display: none;}
 
     .menutoggle{display: block;

@@ -187,6 +187,8 @@
             height: 400px;
              }
 
+.menu-delete{display: none;}
+
 .aboutimageA{flex-grow: 3;
                   height: 340px;
 
