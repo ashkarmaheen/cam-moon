@@ -26,8 +26,12 @@
                     <button class="menu-toggle" id="menuToggle">
                         <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
                     </button>
+                    
                     <div class="menu-list" id="menuList">
                     <ul >
+                      <button class="menu-delete" id="menudelete" onclick="cancelButton()">
+                        <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
+                    </button>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Gallery</a></li>
@@ -524,12 +528,14 @@
   document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menuToggle');
     const menuList = document.getElementById('menuList');
-
+    const menudelete = document.getElementById('menudelete');
     menuToggle.addEventListener('click', function() {
         menuList.classList.toggle('shows');
-        
-        
     });
+    cancelButton=()=>{
+      document.getElementById('menuList').style.right="-300px"
+    }
+
 });
 
   </script>
