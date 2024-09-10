@@ -70,6 +70,12 @@
         display: block;
         margin-top: 145px;
         background-color: #333333;
+        position: relative;
+        margin-top: 0px;
+        top: 350px;
+        z-index: 999;
+        width: 100vh;
+        height: 100vh;
     }
 
     .menu-list a {
@@ -81,8 +87,6 @@
 @media screen  and (max-width:483px){
 
 .menu-bar {position: absolute;
-           width: 100vh;
-           height: 100vh;
            right: 10px;
 }
 
@@ -92,8 +96,10 @@
                   background-color: #333333;
                   position: relative;
                   margin-top: 0px;
-                  top: 140px;
-                  z-index: 999;}
+                  top: 350px;
+                  z-index: 999;
+                  width: 300px;
+                  height: 100vh;}
 }
 
 @media screen and (max-width:1236px) {

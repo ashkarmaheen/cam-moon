@@ -24,17 +24,16 @@
 
                   <div class="menu-bar">
                     <button class="menu-toggle" id="menuToggle">
-                        <!-- <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i> -->
+                        <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
                     </button>
-                    <button class="menu-delete" id="menudelete">
-                      <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
-                  </button>
-                    <ul class="menu-list" id="menuList">
+                    <div class="menu-list" id="menuList">
+                    <ul >
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
+                  </div>
                 </div>
 
                 </nav>
@@ -90,7 +89,7 @@
             <div class="w3-bar w3-black">
                <div class="servnav">
                 <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'wedding')">WEDDING </button>
-                <button class="w3-bar-item w3-button oposit tablink" onclick="openCity(event,'engagement')">EMGAGEMENT</button>
+                <button class="w3-bar-item w3-button oposit tablink" onclick="openCity(event,'engagement')">EGAGEMENT</button>
                 <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'savethedate')">SAVE THE DATE</button>
                 <button class="w3-bar-item w3-button oposit tablink" onclick="openCity(event,'events')">EVENTS</button>
               </div>
@@ -529,7 +528,7 @@
     menuToggle.addEventListener('click', function() {
         menuList.classList.toggle('shows');
         
-        const menudelete=document.getElementById('menudelete')
+        
     });
 });
 
