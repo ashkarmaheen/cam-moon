@@ -23,15 +23,9 @@
                 <nav class="navbox">
 
                   <div class="menu-bar">
-                    <button class="menu-toggle" id="menuToggle">
-                        <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
-                    </button>
-                    
-                    <div class="menu-list" id="menuList">
-                    <ul >
-                      <button class="menu-delete" id="menudelete" onclick="cancelButton()">
-                        <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
-                    </button>
+                    <div>
+                    <ul class="menu-list" id="menuList">
+                  
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Gallery</a></li>
@@ -39,7 +33,24 @@
                     </ul>
                   </div>
                 </div>
-
+                <button class="menu-toggle" id="menuToggle">
+                  <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+              </button>
+                <div class="menu-bar2">
+              
+              
+              <div class="menu-list" id="menuList">
+              <ul class="menulist2">
+                <button class="menu-delete" id="menudelete" onclick="cancelButton()">
+                  <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
+              </button>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+</div>
                 </nav>
             </header>
 
@@ -527,13 +538,15 @@
 
   document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menuToggle');
-    const menuList = document.getElementById('menuList');
+    const menubar2= document.querySelector('.menu-bar2');
     const menudelete = document.getElementById('menudelete');
+
+
     menuToggle.addEventListener('click', function() {
-        menuList.classList.toggle('shows');
+      menubar2.style.left="10%"
     });
     cancelButton=()=>{
-      document.getElementById('menuList').style.right="-300px"
+           menubar2.style.left="110%"
     }
 
 });
