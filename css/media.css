@@ -1588,7 +1588,7 @@
   }
 
   .backgroundshade {
-    height: 330px;
+    height: 350px;
   }
 
   .aboutbox {
@@ -1851,6 +1851,7 @@
   }
   .aboutcontent {
     font-size: 17px;
+    margin-top: 30px;
   }
   .bannersubtext {
     font-size: 31px;
